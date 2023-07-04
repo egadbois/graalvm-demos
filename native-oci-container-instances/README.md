@@ -9,7 +9,7 @@ Ensure that you have the following installed and follow the linked instructions 
 - GraalVM: https://www.graalvm.org/downloads/
 - Your OCI account also must have the proper permissions to create container instances; follow this guide to grant access: https://docs.oracle.com/en-us/iaas/Content/container-instances/permissions/policy-reference.htm#examples__let-users-create-container-instances
 
-**COMPATIBILITY**: Please note that this demo must be performed on an x86-based system in order to properly function. Working through this demo on an ARM-based system will result in the generation of a native image executable that is not compatible with the platform.
+**COMPATIBILITY**: Please ensure that you are completing this demo on an architecture that will create compiled binaries that are compatible with the OCI Container Instances platform for proper functionality
 
 Download or clone GraalVM demos repository:
 ```sh
